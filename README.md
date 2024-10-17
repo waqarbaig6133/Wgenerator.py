@@ -23,3 +23,17 @@ s = 6
 
 ```
 First thing to note is that when generating a symmetrical W, each colomn or space has to have 1 character (for better results, use stars). 
+In terms of the similarities, both have the same number of characters (x) in each corresponding rows (except for the last row depending on height):
+```
+s = 5                        s = 6
+
+ *                 *         *                     *      x=2
+  *       *       *           *       *         *       x=3
+   *     * *     *             *     * *       *        x=4
+    *   *   *   *               *   *   *     *         x=4
+     * *     * *                 * *     *  *
+      *       *                   *       *
+                                   
+
+```
+
